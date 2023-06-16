@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>resultadosprod</class>
+ <widget class="QWidget" name="resultadosprod">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="Producto" name="producto1" native="true"/>
+   </item>
+   <item>
+    <widget class="Producto" name="producto2" native="true"/>
+   </item>
+   <item>
+    <widget class="Producto" name="producto3" native="true"/>
+   </item>
+   <item>
+    <widget class="Producto" name="producto4" native="true"/>
+   </item>
+   <item>
+    <widget class="Producto" name="producto5" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Producto</class>
+   <extends>QWidget</extends>
+   <header>producto.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
